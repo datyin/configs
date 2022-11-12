@@ -1,0 +1,21 @@
+{
+  "name": "@datyin/eslint-config-react",
+  "version": "0.0.10",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Jove Jonovski <jovejonovski@gmail.com> (https://github.com/datyin/)",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=8",
+    "react": ">= 16 < 19"
+  },
+  "dependencies": {
+    "@datyin/eslint-config-ts": "^0.0.10",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}

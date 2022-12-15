@@ -357,7 +357,7 @@ module.exports = {
     "object-property-newline": ["error", { allowMultiplePropertiesPerLine: true }],
     "object-shorthand": ["error", "always", { ignoreConstructors: false, avoidQuotes: true }],
     "one-var": ["error", { initialized: "never" }],
-    "operator-linebreak": ["error", "before"],
+    "operator-linebreak": ["error", "after", { "overrides": { "?": "before", ":": "before" } }],
     "padded-blocks": ["error", { blocks: "never", switches: "never", classes: "never" }],
     "prefer-arrow-callback": ["error", { allowNamedFunctions: false, allowUnboundThis: true }],
     "prefer-const": ["error", { destructuring: "any", ignoreReadBeforeAssign: true }],

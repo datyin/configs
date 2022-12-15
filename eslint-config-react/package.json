@@ -1,6 +1,6 @@
 {
   "name": "@datyin/eslint-config-react",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "",
   "main": "index.js",
   "keywords": [
@@ -11,11 +11,11 @@
   "license": "MIT",
   "peerDependencies": {
     "eslint": ">=8",
-    "react": ">= 16 < 19"
+    "react": ">=16 <19"
   },
   "dependencies": {
-    "@datyin/eslint-config-ts": "^0.0.10",
-    "eslint-plugin-react": "^7.31.10",
+    "@datyin/eslint-config-ts": "^0.0.11",
+    "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
